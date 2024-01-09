@@ -10,7 +10,7 @@ This is a simple JavaScript application that generates a specified number of ran
 
 ## How to Use
 
-1. Open the application in a web browser.
+1. Open the application in a web browser : https://oluchukwucatherineobi-njoku.github.io/Random-Number-Generator/
 2. Enter the minimum and maximum values of the range in the form.
 3. Enter the number of random numbers to generate.
 4. Check the "Unique" checkbox if you want a guarantee that all generated numbers are unique.
