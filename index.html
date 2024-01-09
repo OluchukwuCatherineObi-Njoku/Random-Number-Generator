@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number Generator</title>
+</head>
+<body>
+
+    <h1>Random Number Generator</h1> <br><br>
+
+    <form id="numberFormRange">
+        <br>
+        <label for="minRange">Min : </label>
+        <input required type="number" name="minRange" id="minRange" value="0">
+        <br><br>
+        <label for="maxRange">Max : </label>
+        <input required type="number" name="maxRange" id="maxRange" value="100">
+        <br><br>
+        <label for="numGenerate">Number of random values to generate : </label>
+        <input required type="number" name="numGenerate" id="numGenerate" value="5">
+        <br><br>
+        <label for="uniqueCheckbox">Unique Numbers Only</label>
+        <!-- <input type="checkbox" id="uniqueCheckbox" name="uniqueCheckbox"> -->
+        <input type="checkbox" name="uniqueCheckbox" id="uniqueCheckbox">
+        <br><br>
+        <input type="submit" value="Generate">
+    </form>
+    <p>Random Numbers: <span id="randomNumbers"></span></p><br>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
